@@ -1,0 +1,37 @@
+@use "globals" as *;
+
+footer{
+    background-color: $color-primary;
+
+    .container{
+        width: $width-80;
+        margin: $margin-0-auto;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        .politicas{
+            width: $width-100;
+            ul{
+                list-style: none;
+                li{
+                    font-family:  $style-body;
+                    color: $color-secondary;
+                    margin: $margin-2;
+                    font-size: $size-body-m;
+                }
+            }
+        }
+
+        .redes{
+            width: $width-100;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: end;
+            img{
+                margin: $margin-2;
+            }
+        }
+
+    }
+}

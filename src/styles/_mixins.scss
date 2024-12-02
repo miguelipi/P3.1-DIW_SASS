@@ -1,0 +1,14 @@
+@use "variables" as *;
+
+@mixin button{
+    color: $color-primary;
+    font-size: $size-body-m;
+    font-family: $style-heading;
+    padding: $padding-15px;
+    border: 1px solid $color-primary;
+    border-radius: $border-radius-10px;
+    box-shadow: $box-shadow-5;    
+    :active{
+        box-shadow: $box-shadow-5-interior;
+    }
+}

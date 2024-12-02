@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Inter;
+    src: url(../assests/fonts/inter.woff2);
+}
+@font-face {
+    font-family: Franklin Gothic Heavy;
+    src: url(../assests/fonts/franklin-gothic-heavy.woff2);
+}
+
+/*colores*/
+$color-black: black;
+$color-primary: #027BF8;
+$color-secondary: #F2F9FF;
+$color-hover: #013467;
+$color-danger: #E43131;
+$color-gray-50: #8C8C8C;
+$color-form: rgba(240, 248, 255, 0.85);
+
+/*width*/
+$width-100: 100%;
+$width-80: 80%;
+$width-60: 60%;
+$width-40: 40%;
+$width-10: 10%;
+
+/*margin*/
+$margin-0-auto: 0 auto;
+$margin-4-auto: 4% auto;
+$margin-5-4: 5% 4%;
+$margin-5: 5%;
+$margin-2: 2%;
+$margin-b-3: 3%;
+$margin-b-4: 4%;
+$margin-l-6: 6%;
+
+/*padding*/
+$padding-1-0: 1% 0;
+$padding-4: 4%;
+$padding-15px: 15px;
+$padding-15px-20px: 15px 20px;
+
+/*border*/
+$border-radius-5px: 5px;
+$border-radius-10px: 10px;
+$border-radius-20px: 40px;
+
+/*shadow*/
+$box-shadow-5: 5px 5px 5px rgba(0, 0, 0, 0.3);
+$box-shadow-5-interior: inset 5px 5px 5px rgba(0, 0, 0, 0.4);
+
+/* tipografia */
+$size-body-s: 14px;
+$size-body-m: 16px;
+$size-heading-3: 20px;
+$size-heading-2: 32px;
+$size-heading-1: 48px;
+$style-body: Inter;
+$style-heading: Franklin Gothic Heavy;

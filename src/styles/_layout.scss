@@ -1,0 +1,138 @@
+@use "globals" as *;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $color-secondary;
+    
+    section{
+        margin-bottom: $margin-b-4;
+        h1{
+            font-family: $style-heading;
+            text-align: center;
+            font-size: $size-heading-1;
+            margin: $margin-2;
+        }
+        div{
+            width: $width-80;
+            margin: $margin-0-auto;
+            img{
+                width: $width-100
+            }
+        }
+    }
+    #equipaciones{
+        width: $width-80;
+        margin: $margin-0-auto;
+
+        h1{
+            text-align: start;
+        }
+
+        div{
+            display: flex;
+            justify-content: space-between;
+            width: $width-100;
+            margin-bottom: $margin-b-3;
+            div{
+                flex-direction: column;
+                align-items: center;
+                h4{
+                    text-align: center;
+                    font-family: $style-heading;
+                    font-size: $size-heading-2;
+                    margin: $margin-5;
+                }
+                img{
+                    width: 80%;
+                }
+
+            }
+        }
+    }
+
+    .bg-foto{
+        padding: $padding-4;
+        background-image: url(../assests/img/logo.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        form{
+            background-color: $color-form;
+            width: $width-40;
+            margin: $margin-4-auto;
+            border: 2px solid $color-primary;
+            border-radius: $border-radius-20px;
+            padding: $padding-15px;
+            text-align: center;
+            h3{
+                font-size: $size-heading-1;
+                font-family: $style-heading;
+                margin: $margin-5-4;
+            }
+            p{  
+                text-align: left;
+                font-size: $size-body-s;
+                font-family: $style-body;
+                margin-left: $margin-l-6;
+                margin-bottom: $margin-b-4;
+
+                span{
+                    font-size: $size-body-s;
+                    font-family: $style-body;
+                    font-size: $size-body-s;
+                    color: $color-danger;
+                }
+            }
+            .formulario{
+                width: $width-80;
+                margin: $margin-0-auto;
+                text-align: left;
+                label{
+                    display: block;
+                    font-size: $size-heading-3;
+                    font-family: $style-heading;
+                    span{
+                        color: $color-danger;
+                    }
+                }
+                p{  
+                    color: $color-gray-50;
+                    font-size: $size-body-s;
+                    font-family: $style-body;
+                    padding: 0;
+                    margin: 0;
+                }
+                input{
+                    border: 2px solid rgba(0, 0, 0, 0.4);
+                    margin-bottom: $margin-b-4;
+                    margin-top: $margin-2;
+                    padding: $padding-4;
+                    display: block;
+                    width: 100%;
+                    border-radius: $border-radius-5px;
+                    height:35px;
+                }
+            }
+            button{
+                font-family: $style-heading;
+                font-size: $size-heading-2;
+                color: white;
+                background-color: $color-primary;
+                border: 2px solid white;
+                border-radius: $border-radius-10px;
+                box-shadow: $box-shadow-5;
+                padding: $padding-15px-20px;
+                margin: $margin-5;
+                :hover{
+                    background-color: $color-hover;
+                }
+            }
+        }
+    }
+}
+
